@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{90DD38EB-49D9-4CC7-93A9-8B348E436617}</ProjectGuid>
+    <ProjectGuid>{5F4B2250-E1CE-406A-A630-FF54BD36498D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Cafe_UnitTest</RootNamespace>
-    <AssemblyName>Cafe_UnitTest</AssemblyName>
+    <RootNamespace>CarTests</RootNamespace>
+    <AssemblyName>CarTests</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,16 +49,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="CarTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GoldBadge_FinalProject\Cafe.csproj">
-      <Project>{E512FA4B-6018-4081-A20C-208AE6FC5563}</Project>
-      <Name>Cafe</Name>
+    <ProjectReference Include="..\Car\06_Cars.csproj">
+      <Project>{07B39886-F663-4C2E-8A6D-4BD1EC9D3F8E}</Project>
+      <Name>06_Cars</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

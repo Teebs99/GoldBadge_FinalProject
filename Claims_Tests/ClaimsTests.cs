@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace Claims_Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class ClaimsTests
     {
         [TestMethod]
         public void AddClaim_ShouldReturnTrue()

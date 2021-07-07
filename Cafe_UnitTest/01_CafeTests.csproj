@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{28C53834-8975-4E6A-A570-222E972706A0}</ProjectGuid>
+    <ProjectGuid>{90DD38EB-49D9-4CC7-93A9-8B348E436617}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OutingTests</RootNamespace>
-    <AssemblyName>OutingTests</AssemblyName>
+    <RootNamespace>Cafe_UnitTest</RootNamespace>
+    <AssemblyName>Cafe_UnitTest</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,16 +49,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="CafeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CompanyOutings\CompanyOutings.csproj">
-      <Project>{C4BD29B1-56B8-403D-99A4-6954F2A2DFCD}</Project>
-      <Name>CompanyOutings</Name>
+    <ProjectReference Include="..\GoldBadge_FinalProject\01_Cafe.csproj">
+      <Project>{E512FA4B-6018-4081-A20C-208AE6FC5563}</Project>
+      <Name>01_Cafe</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace Cafe_UnitTest
 {
     [TestClass]
-    public class UnitTest1
+    public class CafeTests
     {
         [TestMethod]
         public void AddMenuItem_ShouldReturnTrue()

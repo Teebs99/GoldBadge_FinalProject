@@ -3,47 +3,47 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe", "GoldBadge_FinalProject\Cafe.csproj", "{E512FA4B-6018-4081-A20C-208AE6FC5563}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Cafe", "GoldBadge_FinalProject\01_Cafe.csproj", "{E512FA4B-6018-4081-A20C-208AE6FC5563}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe_UnitTest", "Cafe_UnitTest\Cafe_UnitTest.csproj", "{90DD38EB-49D9-4CC7-93A9-8B348E436617}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_CafeTests", "Cafe_UnitTest\01_CafeTests.csproj", "{90DD38EB-49D9-4CC7-93A9-8B348E436617}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Cafe", "01_Cafe", "{247D6088-64F2-41E2-83A7-ECD4C191A495}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Claims", "02_Claims", "{0C5AFB39-4620-4DFE-A491-2FAE92A761C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims", "Claims\Claims.csproj", "{405F705C-181C-4573-A6FF-1C2E9EEEE941}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Claims", "Claims\02_Claims.csproj", "{405F705C-181C-4573-A6FF-1C2E9EEEE941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims_Tests", "Claims_Tests\Claims_Tests.csproj", "{0622F27B-5260-4689-B188-90572090896F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Claims_Tests", "Claims_Tests\02_Claims_Tests.csproj", "{0622F27B-5260-4689-B188-90572090896F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_KomodoInsurance", "03_KomodoInsurance", "{6C8FEB39-48D2-46E2-9F0A-90BA2EEC5A00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoInsurance", "KomodoInsurance\KomodoInsurance.csproj", "{E856A3AB-FF03-4456-B939-98FB7B70A225}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_KomodoInsurance", "KomodoInsurance\03_KomodoInsurance.csproj", "{E856A3AB-FF03-4456-B939-98FB7B70A225}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoTests", "KomodoTests\KomodoTests.csproj", "{65381FCD-FCFF-4324-9795-249E758814B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_KomodoTests", "KomodoTests\03_KomodoTests.csproj", "{65381FCD-FCFF-4324-9795-249E758814B7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_CompanyOutings", "04_CompanyOutings", "{168E6378-B2B3-4FC6-9F62-6E6AC70AE494}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyOutings", "CompanyOutings\CompanyOutings.csproj", "{C4BD29B1-56B8-403D-99A4-6954F2A2DFCD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_CompanyOutings", "CompanyOutings\04_CompanyOutings.csproj", "{C4BD29B1-56B8-403D-99A4-6954F2A2DFCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutingTests", "OutingTests\OutingTests.csproj", "{28C53834-8975-4E6A-A570-222E972706A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_OutingTests", "OutingTests\04_OutingTests.csproj", "{28C53834-8975-4E6A-A570-222E972706A0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_Greeting", "05_Greeting", "{CC3BB722-8731-4FE9-A940-F57E4EA18FC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting", "Greeting\Greeting.csproj", "{0E8707F8-5834-4A96-B889-1415F64A5187}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Greeting", "Greeting\05_Greeting.csproj", "{0E8707F8-5834-4A96-B889-1415F64A5187}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerTests", "CustomerTests\CustomerTests.csproj", "{8E94382C-AB15-4FE8-897B-1EA95E6701B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Greeting_Tests", "CustomerTests\05_Greeting_Tests.csproj", "{8E94382C-AB15-4FE8-897B-1EA95E6701B8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_GreenPlan", "06_GreenPlan", "{040F1685-8825-4375-AB5E-1994707EF763}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars", "Car\Cars.csproj", "{07B39886-F663-4C2E-8A6D-4BD1EC9D3F8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Cars", "Car\06_Cars.csproj", "{07B39886-F663-4C2E-8A6D-4BD1EC9D3F8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarTests", "CarTests\CarTests.csproj", "{5F4B2250-E1CE-406A-A630-FF54BD36498D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_CarTests", "CarTests\06_CarTests.csproj", "{5F4B2250-E1CE-406A-A630-FF54BD36498D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07_BBQ", "07_BBQ", "{C1E9E7A0-86E8-43D9-B73B-AF270238F847}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBQBooth", "BBQBooth\BBQBooth.csproj", "{A2B7DE7F-2A56-42CA-B6B9-96166B52647C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Party", "BBQBooth\07_Party.csproj", "{A2B7DE7F-2A56-42CA-B6B9-96166B52647C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyTests", "PartyTests\PartyTests.csproj", "{D1E93262-007E-4386-B41E-15255891EF71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_PartyTests", "PartyTests\07_PartyTests.csproj", "{D1E93262-007E-4386-B41E-15255891EF71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

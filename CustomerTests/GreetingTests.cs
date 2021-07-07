@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace CustomerTests
 {
     [TestClass]
-    public class UnitTest1
+    public class GreetingTests
     {
         CustomerRepo _repo;
         Customer customer;

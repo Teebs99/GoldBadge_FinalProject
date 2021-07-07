@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D1E93262-007E-4386-B41E-15255891EF71}</ProjectGuid>
+    <ProjectGuid>{65381FCD-FCFF-4324-9795-249E758814B7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PartyTests</RootNamespace>
-    <AssemblyName>PartyTests</AssemblyName>
+    <RootNamespace>KomodoTests</RootNamespace>
+    <AssemblyName>KomodoTests</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -49,16 +49,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="KomodoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BBQBooth\BBQBooth.csproj">
-      <Project>{A2B7DE7F-2A56-42CA-B6B9-96166B52647C}</Project>
-      <Name>BBQBooth</Name>
+    <ProjectReference Include="..\KomodoInsurance\03_KomodoInsurance.csproj">
+      <Project>{e856a3ab-ff03-4456-b939-98fb7b70a225}</Project>
+      <Name>03_KomodoInsurance</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

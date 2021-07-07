@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace CarTests
 {
     [TestClass]
-    public class UnitTest1
+    public class CarTests
     {
         CarRepo _repo;
         Car car;

@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace PartyTests
 {
     [TestClass]
-    public class UnitTest1
+    public class PartyTests
     {
         PartyRepo _parties;
         [TestInitialize]
