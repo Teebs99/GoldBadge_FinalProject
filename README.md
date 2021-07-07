@@ -18,3 +18,6 @@ Greeting is a piece of software that tracks all the potential, past, and current
 
 # Green Plan
 Green Plan is an app that tracks cars and their what fuel they run on. There is a master list of all cars owned by the company but they also need to be able to access lists separated by the fuel type.
+
+# BBQ Booths
+BBQ is an app designed to track the cost of corporate parties. Each person is given two tickers, one meal ticket and one treat ticket. The employee can then go and redeem the meal ticket for a burger or hotdog and the treat ticket gives the employee an ice cream cone. The app tracks the redemption of those tickets with each one having a cost dependent on what they redeem. The accounting team also needs to be able to track separate parties and know how many tickets were redeemed and the total cost of the party. The makeshift repository is a dictionary with a int as a party id and a list of tickets as the value pair. 
